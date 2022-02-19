@@ -1,0 +1,209 @@
+/* *{
+    margin: 0%;
+} */
+
+/* h1
+{
+    color: gold;
+} */
+body
+{
+    background-color: coral;
+    color: aliceblue;
+
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+    /*shortcut */
+    font: normal 16px cursive;
+
+    line-height: 1.6em;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: bisque;
+}
+
+a:hover
+{
+    color: rebeccapurple;
+}
+
+a:active
+{
+    color: greenyellow;
+}
+
+a:visited
+{
+    color: black;
+}
+
+.clr
+{
+    clear: both;
+}
+
+.button
+{
+    background-color:blue;
+    color: cadetblue;
+    padding: 10px 10px;
+    border: none;
+}
+.button:hover
+{
+    background-color: whitesmoke;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1
+{
+    background-color: darkcyan;
+    color: aliceblue;
+    border-top: 5px royalblue solid;
+    padding:5px;
+    margin: 40px 0px;
+}
+
+.box-1 h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2mm;
+    word-spacing: 1mm;
+    text-align: center;
+}
+
+.box-2
+{
+    border: 3px dotted gray;
+    padding: 5px;
+    margin: auto;
+}
+
+.categories
+{
+    border: 5px red double;
+    padding: 10px;
+    border-radius: 16px;
+    margin:40px 0px;
+}
+
+.categories h2
+{
+    text-align: center;
+}
+
+.categories ul
+{
+    padding: 20px;
+    list-style: square;
+    list-style-type: none;
+}
+
+.categories li
+{
+    padding-bottom: 6px;
+    border-bottom: dotted 2px cornflowerblue;
+    list-style-image: url('../images/check.png');
+}
+
+.my-form
+{
+    padding: 20px;
+}
+
+.my-form .form-group
+{
+    padding-bottom: 15px;
+}
+
+.my-form .label
+{
+    display: none;
+}
+.my-form input[type="text"], .my-form textarea
+{
+    padding: 8px;
+    width: 100%;
+}
+
+.block 
+{
+    float: left;
+    width: 33%;
+    border: 1px solid wheat;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#main-block
+{
+    float: left;
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+#side-bar
+{
+    float: right;
+    width: 30%;
+    background-color: rebeccapurple;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.p-box
+{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 50px;
+    position: relative;
+    background-image: url();
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.p-box h1, h2
+{
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+.fix-me
+{
+    position: fixed;
+    top: 400px;
+    left: 0%;
+}
+
+.my-list li:first-child, .my-list li:last-child
+{
+    background: red;
+}
+
+.my-list li:nth-child(5)
+{
+    background: yellowgreen;
+}
+
+.my-list li:nth-child(even)
+{
+    background: yellowgreen;
+}
