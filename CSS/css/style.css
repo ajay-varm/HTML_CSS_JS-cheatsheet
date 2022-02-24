@@ -94,13 +94,13 @@ a:visited
 
 .categories
 {
-    border: 5px red double;
+    border: 2px red dotted;
     padding: 10px;
     border-radius: 16px;
     margin:40px 0px;
 }
 
-.categories h2
+.categories h3
 {
     text-align: center;
 }
